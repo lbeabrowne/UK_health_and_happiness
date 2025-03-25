@@ -29,9 +29,12 @@ Most datasets were sourced from the Office of National Statistics (ONS), with th
 - Merging of datasets, paying attention to how location is defined and dates
 - Statistical analysis of factors - Google Colab, using Python
 - Exploration of machine learning models (including PyCaret library)
-- Dashboard on Looker Studio
-- Presentation of dashboard
+- Interactive dashboard on Looker Studio
+- Presentation of project insights using dashboard and data-driven storytelling
 
 ### Insights:
 
 ### Dashboard:
+
+https://www.notion.so/UK-Health-Happiness-Project-19a97beee4ab80fd9fe4dc58a0a83ef9?pvs=4
+
