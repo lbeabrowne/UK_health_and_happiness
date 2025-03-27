@@ -3,7 +3,7 @@
 </div>
 
 ### Project Overview:
-This was a 2-week capstone project at the end of Le Wagon’s Data Analytics bootcamp course. The purpose of this project was to explore which factors may be contributing to areas of high and low average health and happiness levels, which differ across the UK. This was a group project, where I worked collaboratively in a team of 4. I pitched the project idea and led the team through the 2-week sprint, successfully delivering the outcome of the project in a Looker Studio dashboard which we presented as a team to the rest of the cohort.
+This was a 2-week capstone project at the end of Le Wagon’s Data Analytics bootcamp course. The purpose of this project was to explore which factors may be contributing to areas of high and low average health and happiness levels, which differ across the UK. This was a group project, where I worked collaboratively in a team of 4. I pitched the project idea and led the team through the 2-week sprint, successfully delivering the final project outcome in a Looker Studio dashboard which we presented as a team to the rest of the cohort.
 
 ### Tech Stack:
 SQL | Python | Stats & ML | Google BigQuery | Google Colab | Looker Studio | Notion | Trello
@@ -52,6 +52,32 @@ Most datasets were sourced from the Office of National Statistics (ONS), with th
 6. Presentation of project insights using dashboard and data-driven storytelling
 
 ### Insights:
+#### Overall Health and Happiness Levels Around the UK:
+- Health index levels in England appear to have a North South divide, with higher health levels found in areas in the South
+- Average happiness levels more evenly distributed across UK, however similar areas with below average health levels also noted for below average happiness
+
+#### Correlation of Factors Analysed with Health and Happiness:
+- Positive correlation of factors with happiness (strongly to weakly positive): garden size, distance to park, nb of cats and dogs, air quality
+- Negative correlation of factors with happiness (weakly negative): nb of parks within 1 km, population, water pollution
+- Positive correlation of factors with health (strongly to weakly positive): max temp, nb of cats and dogs, garden size, avg temp, park size, longitude
+- Negative correlation of factors with health (strongly to weakly negative): wind direction, latitude, wind speed
+
+#### Main Findings:
+- It is important to note that more detailed analysis including factors such as social and economic factors is needed to determine causation of the different health and happiness levels around the UK
+- From this project's analysis, correlation, and not causation, could only be determined
+- Despite this, some interesting trends were extracted from our analysis:
+  <br>
+👥 Areas with high population density have on average lower happiness levels
+  <br>
+🌱 Being close to a park does not correlate with higher happiness (distance to park negatively correlates with population therefore this might be the contributing factor)
+  <br>
+🌱 Average garden size had strongest correlation with both happiness and health (likely to be strongly linked to wealth and income levels)
+  <br>
+🏭 Areas with higher pollution levels have lower than average happiness and health levels
+  <br>
+🌦️ From weather analysis, areas with higher wind speeds (e.g. coastal cities) tend to have a lower health index and areas with higher temperatures tend to have a higher health index - question as to whether there is a link to increased outdoor physical activity due to weather factors
+  <br>
+🐈 Higher numbers of cats and dogs owned per area correlate with higher health and happiness levels (likely to be linked with economic and demographic factors)
 
 ### Dashboard:
 Click the button below if you want to see the dashboard!
